@@ -113,12 +113,15 @@ nav a:hover{
     }
 
     .text-container {
-        font-size: 2.5em; /* Adjust size as needed */
+        font-size: 1.5em; /* Adjust size as needed */
         color: #FF00FF; /* Example color, adjust as needed */
-        line-height: 1.5; /* Adjust spacing between lines */
+        line-height: 1; /* Adjust spacing between lines */
         text-align: start; /* Center-align text */
         padding-left: 70px;
         font-family: "Zen Tokyo Zoo", system-ui;
+    }
+    #logo2{
+        display: none;
     }
 }
 
@@ -164,26 +167,31 @@ section {
     box-shadow: 0px 8px 7px rgba(0, 0, 0, 0.25);
 }
 
-#aboutUs {
-    background: none; /* Ensures the section does not have its own background */
+.about-us-section {
     display: flex;
-    flex-direction: column; /* Stack children vertically */
-    align-items: center; /* Center align the children */
-    text-align: center; /* Center align text */
-    padding: 50px 20px; /* Add padding for better spacing */
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
 }
 
-#AboutUsDiv {
-    font-size: 2em; /* Adjust size as needed */
-    margin-bottom: 20px; /* Add space below the title */
-    color: #b300ff;
+.text-block-left, .text-block-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    color: white;
 }
 
-#firstAbout {
-    font-size: 2em; /* Adjust size as needed */
-    max-width: 800px; /* Control the width of the text */
-    align-items: flex-start;
+.text-block-left p, .text-block-right p {
+    text-align: center;
+    margin: 20px 0;
 }
+
+.logo {
+    max-width: 80px;
+    margin: 10px;
+}
+
 
 
 #whyUs{
@@ -306,7 +314,7 @@ section {
 
 #gallery {
     padding: 50px 0;
-    background: #300030;
+    background: linear-gradient(180deg, #480048, #0C090A);
     text-align: center;
 }
 
@@ -315,6 +323,8 @@ section {
     margin-bottom: 20px;
     font-size: 2em;
     letter-spacing: 2px;
+    text-align: center;
+    
     text-transform: uppercase; /* Ensures uniformity */
 }
 
