@@ -28,12 +28,13 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
-    padding: 50px;
+    padding: 80px;
     z-index: 1000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 nav .logo {
+    
     color: #fff;
     font-size: 24px;
     font-weight: bold;
@@ -116,15 +117,16 @@ nav a:hover{
     }
 
     .text-container {
-        font-size: 1.5em; 
-        color: #FF00FF; 
-        line-height: 1; 
-        text-align: start;
+        font-size: 1.5em; /* Adjust size as needed */
+        color: #FF00FF; /* Example color, adjust as needed */
+        line-height: 1; /* Adjust spacing between lines */
+        text-align: start; /* Center-align text */
         padding-left: 70px;
         background: linear-gradient(180deg, #480048, #0C090A);
         font-family: "Zen Tokyo Zoo", system-ui;
         position: fixed;
         position: absolute;
+        background-color: purple;
     }
     #logo2{
         position: absolute;
@@ -142,7 +144,7 @@ section {
 }
 
 #logo {
-    width: 280px; 
+    width: 280px; /* Adjust size as needed */
     font-size: 1.5em;
 }
 
@@ -156,10 +158,10 @@ section {
 }
 
 .text-container {
-    font-size: 3.5em;
-    color: #FF00FF;
-    line-height: 1.5; 
-    text-align: start; 
+    font-size: 3.5em; /* Adjust size as needed */
+    color: #FF00FF; /* Example color, adjust as needed */
+    line-height: 1.5; /* Adjust spacing between lines */
+    text-align: start; /* Center-align text */
     padding-left: 70px;
     font-family: "Zen Tokyo Zoo", system-ui;
     margin-top: 150px;
@@ -168,7 +170,7 @@ section {
 #EVERY {
     font-family: "Zen Tokyo Zoo", system-ui;
     font-weight: bold;
-    color: #ff48ed;
+    color: #ff48ed; /* Your specified color */
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), /* dark shadow */
                  0 0 10px rgba(169, 56, 255, 0.8), /* glow */
@@ -340,7 +342,7 @@ section {
     letter-spacing: 2px;
     text-align: center;
     
-    text-transform: uppercase; 
+    text-transform: uppercase; /* Ensures uniformity */
 }
 
 .gallery-container {
