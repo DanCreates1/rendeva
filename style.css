@@ -8,6 +8,7 @@ body {
     color: #fff;
     scroll-behavior: smooth;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #C129C8;
 }
 
 * {
@@ -26,6 +27,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
+    padding: 50px;
     z-index: 1000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -118,10 +120,14 @@ nav a:hover{
         line-height: 1; /* Adjust spacing between lines */
         text-align: start; /* Center-align text */
         padding-left: 70px;
+        background: linear-gradient(180deg, #480048, #0C090A);
         font-family: "Zen Tokyo Zoo", system-ui;
+        position: fixed;
+        position: absolute;
+        background-color: purple;
     }
     #logo2{
-        display: none;
+        position: absolute;
     }
 }
 
@@ -131,6 +137,8 @@ section {
     justify-content: space-between;
     padding: 170px;
     min-height: 45vh;
+    background-color: purple;
+    background: linear-gradient(180deg, #020002 62.5%, rgba(36, 5, 47, 0.92) 100%);
 }
 
 #logo {
@@ -144,6 +152,7 @@ section {
     height: auto;
     transform: translateY(40px);
     margin: 0 50px;
+    position: fixed;
 }
 
 .text-container {
@@ -153,6 +162,7 @@ section {
     text-align: start; /* Center-align text */
     padding-left: 70px;
     font-family: "Zen Tokyo Zoo", system-ui;
+    margin-top: 150px;
 }
 
 #EVERY {
@@ -168,10 +178,13 @@ section {
 }
 
 .about-us-section {
+    font-size: 1.7rem;
+    padding: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px;
+    background-color: rgba(36, 5, 47, 0.92);
 }
 
 .text-block-left, .text-block-right {
@@ -195,6 +208,7 @@ section {
 
 
 #whyUs{
+    
     width: 100%;
      background: linear-gradient(200deg, #020002 62.5%, rgba(36, 5, 47, 0.92) 100%);
 }
@@ -202,10 +216,11 @@ section {
 
 
 #whyUs {
-    background: linear-gradient(200deg, #020002 62.5%, rgba(36, 5, 47, 0.92) 100%);
+    background: linear-gradient(360deg, #020002 62.5%, rgba(36, 5, 47, 0.92) 100%);
     color: #FFF;
     text-align: center;
     padding: 50px 0;
+    
 }
 
 #whyUs .container {
@@ -270,7 +285,7 @@ section {
 
 
 #testimonials {
-    background: linear-gradient(10deg, #480048, #0C090A);
+    background: linear-gradient(360deg, #480048, #000000);
     color: #FFFFFF;
     text-align: center;
     padding: 50px 0;
@@ -357,5 +372,52 @@ section {
 @media (max-width: 768px) {
     .gallery-container {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}
+
+
+
+.loader_bg{
+    position: fixed;
+    z-index: 999999;
+    background: #24052F;
+    width: 100%;
+    height: 100%;
+}
+.loader{
+    border: 0 soild transparent;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: calc(50vh - 75px);
+    left: calc(50vw - 75px);
+}
+.loader:before, .loader:after{
+    content: '';
+    border: 1em solid #8228a3;
+    border-radius: 50%;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: loader 2s linear infinite;
+    opacity: 0;
+}
+.loader:before{
+    animation-delay: .5s;
+}
+@keyframes loader{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 0;
     }
 }
