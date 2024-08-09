@@ -116,16 +116,15 @@ nav a:hover{
     }
 
     .text-container {
-        font-size: 1.5em; /* Adjust size as needed */
-        color: #FF00FF; /* Example color, adjust as needed */
-        line-height: 1; /* Adjust spacing between lines */
-        text-align: start; /* Center-align text */
+        font-size: 1.5em; 
+        color: #FF00FF; 
+        line-height: 1; 
+        text-align: start;
         padding-left: 70px;
         background: linear-gradient(180deg, #480048, #0C090A);
         font-family: "Zen Tokyo Zoo", system-ui;
         position: fixed;
         position: absolute;
-        background-color: purple;
     }
     #logo2{
         position: absolute;
@@ -143,7 +142,7 @@ section {
 }
 
 #logo {
-    width: 280px; /* Adjust size as needed */
+    width: 280px; 
     font-size: 1.5em;
 }
 
@@ -157,10 +156,10 @@ section {
 }
 
 .text-container {
-    font-size: 3.5em; /* Adjust size as needed */
-    color: #FF00FF; /* Example color, adjust as needed */
-    line-height: 1.5; /* Adjust spacing between lines */
-    text-align: start; /* Center-align text */
+    font-size: 3.5em;
+    color: #FF00FF;
+    line-height: 1.5; 
+    text-align: start; 
     padding-left: 70px;
     font-family: "Zen Tokyo Zoo", system-ui;
     margin-top: 150px;
@@ -169,7 +168,7 @@ section {
 #EVERY {
     font-family: "Zen Tokyo Zoo", system-ui;
     font-weight: bold;
-    color: #ff48ed; /* Your specified color */
+    color: #ff48ed;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), /* dark shadow */
                  0 0 10px rgba(169, 56, 255, 0.8), /* glow */
@@ -341,7 +340,7 @@ section {
     letter-spacing: 2px;
     text-align: center;
     
-    text-transform: uppercase; /* Ensures uniformity */
+    text-transform: uppercase; 
 }
 
 .gallery-container {
