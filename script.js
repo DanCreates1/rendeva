@@ -1,3 +1,11 @@
+// Preloader
+$(window).on('load', function () {
+  setTimeout(function () {
+    $('.loader_bg').fadeToggle();
+  }, 1500);
+});
+
+
 document.addEventListener('DOMContentLoaded', () => {
     const nav = document.querySelector('nav');
     const burger = document.querySelector('.burger');
