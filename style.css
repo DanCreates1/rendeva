@@ -28,7 +28,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
-    padding: 80px;
+    padding: 100px;
     z-index: 1000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -126,7 +126,6 @@ nav a:hover{
         font-family: "Zen Tokyo Zoo", system-ui;
         position: fixed;
         position: absolute;
-        background-color: purple;
     }
     #logo2{
         position: absolute;
@@ -162,9 +161,12 @@ section {
     color: #FF00FF; /* Example color, adjust as needed */
     line-height: 1.5; /* Adjust spacing between lines */
     text-align: start; /* Center-align text */
-    padding-left: 70px;
+    padding-right: 100px;
+    margin-right: 400px;
+    transform: translateX(-150px);
     font-family: "Zen Tokyo Zoo", system-ui;
     margin-top: 150px;
+
 }
 
 #EVERY {
@@ -177,6 +179,15 @@ section {
                  0 0 20px rgba(169, 56, 255, 0.6), 
                  0 0 30px rgba(169, 56, 255, 0.4);
     box-shadow: 0px 8px 7px rgba(0, 0, 0, 0.25);
+}
+
+#logo2{
+    margin-left: 700px;
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    margin-right: 450px;
+    transform: translateX(190px);
 }
 
 .about-us-section {
