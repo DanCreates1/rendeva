@@ -122,10 +122,11 @@ nav a:hover{
         line-height: 1; /* Adjust spacing between lines */
         text-align: start; /* Center-align text */
         padding-left: 70px;
-        background: linear-gradient(180deg, #480048, #0C090A);
         font-family: "Zen Tokyo Zoo", system-ui;
-        position: fixed;
+        padding-top: 600px;
         position: absolute;
+        
+        
     }
     #logo2{
         position: absolute;
@@ -296,6 +297,13 @@ section {
 }
 
 
+@media (max-width: 768px){
+    .about-us-section{
+        width: 100%;
+        height: 70%;
+        padding-top: 700px;
+    }
+}
 
 #testimonials {
     background: linear-gradient(360deg, #480048, #000000);
